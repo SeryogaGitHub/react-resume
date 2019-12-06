@@ -1,0 +1,42 @@
+@gold-text: #fc0;
+
+.gold-text{
+	color: @gold-text;
+}
+.transition(@time: .2s, @function: linear, @element: all) {
+	transition: @element @time @function
+}
+.position-center{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+.gradient (@origin: left, @start: #ffffff, @stop: #000000) {
+	background: @start;
+	background: -webkit-linear-gradient(@origin, @start, @stop);
+	background: -moz-linear-gradient(@origin, @start, @stop);
+	background: -o-linear-gradient(@origin, @start, @stop);
+	background: -ms-linear-gradient(@origin, @start, @stop);
+	background: linear-gradient(@origin, @start, @stop);
+}
+.text-center{
+	text-align: center;
+}
+.display-flex{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -12.5px;
+
+	&>div{
+		margin: 12.5px;
+		flex: 1 0 400px;
+	}
+}
+.nowrap{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
