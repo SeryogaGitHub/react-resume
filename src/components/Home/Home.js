@@ -17,24 +17,24 @@ const Home = (props) => {
 
                 <section className="pane wow slideInLeft">
                   <h3>
-                    <span className="gold-text">П.І.Б.:</span>
+                    <span className="gold-text">П.І.Б.: </span>
                     Липянець Сергій Леонідович
                   </h3>
 
                   <h4>
-                    <span className="gold-text">Дата народження:</span>
+                    <span className="gold-text">Дата народження: </span>
                     17.03.1990
                   </h4>
                 </section>
 
                 <section className="pane wow slideInRight">
                   <h4>
-                    <span className="gold-text">Вид зайнятості:</span>
+                    <span className="gold-text">Вид зайнятості: </span>
                     повна зайнятість, дистанційна робота
                   </h4>
 
                   <h4>
-                    <span className="gold-text">Бажане місто роботи:</span>
+                    <span className="gold-text">Бажане місто роботи: </span>
                     Після місяця роботи дестанційно готовий до переїзду
                   </h4>
                 </section>
@@ -44,27 +44,27 @@ const Home = (props) => {
 
             <div className="pane print-hidden">
               <h4>
-                <span className="gold-text">Місто проживання:</span>
+                <span className="gold-text">Місто проживання: </span>
                 Житомир
               </h4>
 
               <h4>
-                <span className="gold-text">Skype:</span>
+                <span className="gold-text">Skype: </span>
                 serg_uk_zt
               </h4>
 
               <h4>
-                <span className="gold-text">Телефон:</span>
+                <span className="gold-text">Телефон: </span>
                 +380 98 96 96 952
               </h4>
 
               <h4>
-                <span className="gold-text">Email:</span>
+                <span className="gold-text">Email: </span>
                 main.email.seryoga@gmail.com
               </h4>
 
               <h4>
-                <span className="gold-text">Робочі години:</span>
+                <span className="gold-text">Робочі години: </span>
                 Пн-Пт: 10:00 - 19:00 <br/>
                 <span className="gold-text">Для пропозицій від яких не зможу відмовитися, на зв`язку цілодобово :)</span>
               </h4>
@@ -82,7 +82,7 @@ const Home = (props) => {
                 <br/>
               </li>
               <li>
-                <span className="gold-text">з 05.2018 по нині</span>
+                <span className="gold-text">з 05.2018 по 02.2019 </span>
               </li>
               <li>
                 <span className="gold-text">Агентство Дмитрия Димбровского,</span> FullStack: верстка по макетам PSD,

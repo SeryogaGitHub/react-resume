@@ -8,13 +8,17 @@ import Portfolio from "./components/Portfolio/Prortfolio";
 import Contacts from "./components/Contacts/Contacts";
 import {BrowserRouter, Route} from "react-router-dom";
 
-function App() {
+function App(props) {
+  const {state} = props;
+
   return (
     <BrowserRouter>
       <Header/>
 
       <Route exact path={'/'} component={Home}/>
-      <Route path={'/portfolio'} component={Portfolio}/>
+      <Route path={'/portfolio'} render={() =>
+        <Portfolio projects={state.projects}/>
+      }/>
       <Route path={'/contacts'} component={Contacts}/>
 
       <Footer/>
