@@ -39,7 +39,6 @@ const Contacts = (props) => {
 
           <hr/>
 
-
           <MapContainer
               zoom={14}
               location={{lat: 50.254556, lng: 28.658730}}

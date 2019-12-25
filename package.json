@@ -4,12 +4,24 @@
   "private": true,
   "dependencies": {
     "google-maps-react": "^2.0.2",
-    "less": "^3.10.3",
-    "less-loader": "^5.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-less": "^3.0.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,5 @@
 import React from "react";
-import {Map, Marker, GoogleApiWrapper, Polyline} from 'google-maps-react';
+import {Map, Marker, GoogleApiWrapper} from 'google-maps-react';
 
 class MapContainer extends React.Component {
 
@@ -24,6 +24,4 @@ class MapContainer extends React.Component {
 
 export default GoogleApiWrapper({
   apiKey: ('AIzaSyASPycZswOJ1QcCtU3au0M0jJh1HdlzVQI')
-})(MapContainer)
-
-// center: { lat: 50.254556, lng: 28.658730 },
+})(MapContainer);
