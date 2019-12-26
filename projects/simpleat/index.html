@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <meta name="description" content="HTML,CSS,Jquery">
+  <meta name="author" content="main.email.seryoga@gmail.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="x-rim-auto-match" content="none">
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
+  <meta property="og:title" content="title"/> 
+  <meta property="og:description" content="description"/> 
+  <meta property="og:image" content="img/logo.jpg" />
+  <meta property="og:url" content="site.com"/> 
+  <meta property="og:site_name" content="title"/>
+    
+</head>
+<body>
+  <div id="top-page"></div>
+
+  <div class="popup cookie mfp-with-anim mfp-hide" id="cookie-popup">
+    <p class="text">
+      This website uses cookies. The information in the cookies is used to provide the best experience for you on our website.
+    </p>
+    
+    <button class="btn btn-cookie">I agree</button>
+  </div><!-- .popup -->
+
+  <header class="main-header gray-block">
+    <div class="center">
+      <div class="flex-container container">
+        <div>
+          <button id="cart">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="26px" height="24px">
+            <path fill-rule="evenodd"  fill="rgb(18, 25, 32)"
+             d="M23.938,14.297 C23.819,14.887 23.305,15.314 22.716,15.314 L7.283,15.314 L7.650,17.134 L22.600,17.134 C22.945,17.134 23.224,17.419 23.224,17.770 C23.224,18.122 22.945,18.407 22.600,18.407 L7.650,18.407 C7.061,18.407 6.547,17.980 6.428,17.390 L3.409,2.434 L0.670,1.221 C0.353,1.081 0.208,0.706 0.346,0.383 C0.483,0.061 0.850,-0.087 1.167,0.052 L3.905,1.266 C4.278,1.431 4.549,1.771 4.631,2.177 L5.023,4.121 L24.461,4.121 C24.838,4.121 25.191,4.293 25.429,4.591 C25.667,4.889 25.760,5.276 25.684,5.652 L23.938,14.297 ZM5.281,5.395 L7.026,14.041 L22.716,14.041 L24.461,5.395 L5.281,5.395 ZM19.342,8.701 L10.399,8.701 C10.054,8.701 9.775,8.417 9.775,8.065 C9.775,7.713 10.054,7.428 10.399,7.428 L19.342,7.428 C19.686,7.428 19.966,7.713 19.966,8.065 C19.966,8.417 19.686,8.701 19.342,8.701 ZM10.886,10.735 L18.855,10.735 C19.199,10.735 19.479,11.020 19.479,11.372 C19.479,11.723 19.199,12.008 18.855,12.008 L10.886,12.008 C10.541,12.008 10.262,11.723 10.262,11.372 C10.262,11.020 10.541,10.735 10.886,10.735 ZM10.951,19.437 C12.183,19.437 13.186,20.460 13.186,21.717 C13.186,22.976 12.183,23.999 10.951,23.999 C9.718,23.999 8.716,22.976 8.716,21.717 C8.716,20.460 9.718,19.437 10.951,19.437 ZM10.951,22.725 C11.495,22.725 11.938,22.274 11.938,21.717 C11.938,21.162 11.495,20.710 10.951,20.710 C10.406,20.710 9.964,21.162 9.964,21.717 C9.964,22.273 10.406,22.725 10.951,22.725 ZM18.791,19.437 C20.024,19.437 21.026,20.460 21.026,21.717 C21.026,22.976 20.024,23.999 18.791,23.999 C17.559,23.999 16.556,22.976 16.556,21.717 C16.556,20.460 17.559,19.437 18.791,19.437 ZM18.791,22.725 C19.336,22.725 19.779,22.274 19.779,21.717 C19.779,21.162 19.336,20.710 18.791,20.710 C18.247,20.710 17.804,21.162 17.804,21.717 C17.804,22.273 18.247,22.725 18.791,22.725 Z"/>
+            </svg>
+
+            Cart
+          </button>
+
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+
+        <div>
+          <a href="#">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="21px" height="24px">
+            <path fill-rule="evenodd"  fill="rgb(18, 25, 32)"
+             d="M20.497,21.310 C20.447,21.439 20.353,21.548 20.238,21.623 C20.088,21.717 16.504,23.999 10.506,23.999 C4.509,23.999 0.924,21.722 0.775,21.623 C0.655,21.548 0.566,21.439 0.516,21.310 C0.251,20.644 0.256,19.316 0.261,19.059 C0.261,19.054 0.261,19.049 0.261,19.043 C0.266,19.004 0.266,18.964 0.266,18.919 C0.296,17.940 0.361,15.639 2.525,14.899 C2.540,14.894 2.555,14.889 2.575,14.883 C4.833,14.312 6.693,13.020 6.713,13.005 C7.017,12.791 7.435,12.866 7.650,13.169 C7.864,13.472 7.789,13.889 7.485,14.103 C7.400,14.158 5.416,15.539 2.934,16.176 C1.772,16.588 1.642,17.826 1.608,18.959 C1.608,19.004 1.603,19.043 1.603,19.083 C1.593,19.531 1.627,20.221 1.707,20.619 C2.520,21.076 5.705,22.662 10.501,22.662 C15.317,22.662 18.483,21.082 19.291,20.624 C19.370,20.227 19.400,19.535 19.395,19.088 C19.390,19.049 19.390,19.009 19.390,18.964 C19.356,17.831 19.226,16.594 18.064,16.181 C15.582,15.544 13.597,14.168 13.513,14.108 C13.208,13.895 13.134,13.477 13.348,13.174 C13.562,12.871 13.981,12.796 14.285,13.010 C14.305,13.025 16.175,14.317 18.423,14.889 C18.438,14.894 18.458,14.899 18.473,14.903 C20.637,15.639 20.702,17.940 20.731,18.924 C20.731,18.969 20.736,19.009 20.736,19.049 C20.736,19.054 20.736,19.059 20.736,19.064 C20.741,19.322 20.746,20.649 20.497,21.310 ZM10.571,12.930 C10.556,12.930 10.536,12.930 10.521,12.930 C10.511,12.930 10.501,12.930 10.492,12.930 C10.462,12.930 10.437,12.930 10.412,12.930 C8.951,12.905 7.769,12.393 6.902,11.414 C4.983,9.257 5.302,5.560 5.337,5.206 C5.461,2.538 6.738,1.271 7.784,0.679 C8.826,0.087 9.913,-0.002 10.467,-0.002 L10.496,-0.002 C10.501,-0.002 10.511,-0.002 10.516,-0.002 L10.551,-0.002 C11.558,0.018 12.461,0.257 13.233,0.699 C14.270,1.290 15.527,2.558 15.651,5.206 C15.686,5.560 16.005,9.257 14.086,11.414 C13.213,12.393 12.032,12.905 10.571,12.930 ZM14.315,5.331 C14.310,5.322 14.310,5.306 14.310,5.291 C14.156,1.921 11.867,1.375 10.521,1.345 C10.506,1.345 10.492,1.345 10.481,1.345 L10.462,1.345 C9.375,1.345 6.837,1.728 6.673,5.291 C6.673,5.301 6.668,5.316 6.668,5.331 C6.663,5.361 6.324,8.756 7.904,10.524 C8.527,11.231 9.370,11.579 10.467,11.588 C10.476,11.588 10.481,11.588 10.492,11.588 C10.501,11.588 10.506,11.588 10.516,11.588 C11.618,11.579 12.456,11.231 13.084,10.524 C14.669,8.745 14.320,5.366 14.315,5.331 Z"/>
+            </svg>
+
+            Sign in
+          </a>
+
+          <a href="#top-page" class="btn go-to">
+            Order now
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-containt">
+    <section class="more-food section">
+      <div class="center">
+        <div class="flex-container container">
+          <div class="text-center">
+            <img src="img/bottles.png" alt="">
+          </div>
+
+          <div>
+            <div class="text-center">
+              <h1>More than food</h1>
+              
+              <p>
+                Everything your body needs in one bottle of Simpleat. Drink Simpleat and forget about hunger. Be the first to try nutrition designed for your needs.
+              </p>
+              <strong>Free shipping for orders over €90</strong>
+            </div>
+
+            <form action="#">
+              <select name="bottles" class="selectmenu bottles-menu">
+                <option value="12">12 bottles</option>
+                <option value="24">24 bottles</option>
+                <option value="36">36 bottles</option>
+                <option value="48">48 bottles</option>
+                <option value="60">60 bottles</option>
+                <option value="24">24 bottles</option>
+                <option value="36">36 bottles</option>
+                <option value="48">48 bottles</option>
+                <option value="60">60 bottles</option>
+                <option value="24">24 bottles</option>
+                <option value="36">36 bottles</option>
+                <option value="48">48 bottles</option>
+                <option value="60">60 bottles</option>
+                <option value="24">24 bottles</option>
+                <option value="36">36 bottles</option>
+                <option value="48">48 bottles</option>
+                <option value="60">60 bottles</option>
+              </select>
+
+              <div class="content-radion-change">
+                <div class="flex-container container">
+                  <div class="radio-container">
+                    <input type="radio" name="radio-1" id="radio-1" class="radio-btn" checked>
+                    <label for="radio-1" class="change-btn" data-id="#change-btn-1"></label>
+
+                    <div class="info">
+                      <button class="more-info" type="button">One-Time</button><br>
+                      <span>Purchase</span>
+
+                      <div class="content">
+                        <p>
+                          By subscribing you will receive 12 bottles of Simpleat monthly  
+                        </p>
+                        
+                        <p>
+                          You can cancel your subscription anytime. <a href="#">Learn more</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- .radio-container -->
+                  
+                  <div class="radio-container">
+                    <input type="radio" name="radio-1" id="radio-2" class="radio-btn">
+                    <label for="radio-2" class="change-btn" data-id="#change-btn-2"></label>
+
+                    <div class="info">
+                      <button class="more-info" type="button">Subscribe</button><br>
+                      <span>and save 5%</span>
+
+                      <div class="content">
+                        <p>
+                          By subscribing you will receive 12 bottles of Simpleat monthly  
+                        </p>
+                        
+                        <p>
+                          You can cancel your subscription anytime. <a href="#">Learn more</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div><!-- .radio-container -->
+                </div>
+
+                <div class="price-btn">
+                  <div id="change-btn-1" class="flex-container container active">
+                    <div>
+                      <strong>€32</strong><br>
+                      <p>€2.60 per meal (400 kcal)</p>
+                    </div>
+
+                    <div>
+                      <button class="btn" type="submit" name="one-time">Add to cart</button>
+                    </div>
+                  </div>
+
+                  <div id="change-btn-2" class="flex-container container">
+                    <div>
+                      <div class="originally">Originally €32</div>
+                      <strong>€30.04</strong> billed monthly<br>
+                      <p>€2.53 per meal</p>
+                    </div>
+
+                    <div>
+                      <button class="btn" type="submit" name="one-time">Subscribe</button>
+                    </div>
+                  </div>
+                </div><!-- .price-btn -->
+              </div><!-- .content-radion-change -->
+            </form>
+          </div>
+        </div><!-- .container -->
+      </div>
+    </section><!-- .more-food -->
+
+    <section class="section what-simpleat">
+      <div class="center">
+        <div class="flex-container justify-center container text-center">
+          <div class="text">
+            <h2>What is Simpleat?</h2>
+
+            <p>
+              Simpleat is made to provide the perfectly balanced diet with every nutrient your body needs for optimal health.
+            </p>
+
+            <p>
+              Simpleat will take care of your hunger while you have more important things to do whether it is your work, business, travel or simply having fun.
+            </p>
+          </div>
+
+          <div class="video-block">
+            <a href="https://www.youtube.com/watch?v=af59U2BRRAU" class="popup-youtube">
+              <img src="img/what-simpleat.jpg" alt="">
+
+              <div class="play">
+                <svg 
+                 xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 width="80px" height="80px">
+                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                 d="M39.998,80.006 C17.939,80.006 -0.007,62.060 -0.007,40.001 C-0.007,17.943 17.939,-0.003 39.998,-0.003 C62.056,-0.003 80.002,17.943 80.002,40.001 C80.002,62.060 62.056,80.006 39.998,80.006 ZM39.998,2.663 C19.410,2.663 2.660,19.413 2.660,40.001 C2.660,60.589 19.410,77.339 39.998,77.339 C60.586,77.339 77.335,60.589 77.335,40.001 C77.335,19.413 60.586,2.663 39.998,2.663 ZM60.751,41.102 L31.414,61.105 C31.189,61.259 30.926,61.337 30.664,61.337 C30.450,61.337 30.235,61.286 30.041,61.182 C29.603,60.951 29.330,60.498 29.330,60.003 L29.330,19.999 C29.330,19.505 29.603,19.051 30.039,18.820 C30.477,18.589 31.005,18.620 31.414,18.897 L60.751,38.900 C61.115,39.148 61.334,39.559 61.334,40.001 C61.334,40.443 61.115,40.855 60.751,41.102 ZM31.997,22.523 L31.997,57.479 L57.633,40.001 L31.997,22.523 Z"/>
+                </svg>
+
+                Play video
+              </div>
+            </a>
+          </div><!-- .video-block -->
+        </div><!-- .container -->
+      </div>
+    </section><!-- .what-simpleat -->
+
+    <section class="section why-simpleat">
+      <div class="center">
+        <h2>Why Simpleat?</h2>
+        <p class="desc">Enjoy all the benefits of Simpleat</p>
+
+        <div class="flex-container list">
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-1.jpg)">
+              <img src="img/why-simpleat/ico-1.svg" alt="">
+            </div>
+
+            <h3>Complete nutrition</h3>
+
+            <p>
+              One bottle of Simleat provides 20% of your daiyly needs for calories and micronutrients
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-2.jpg)">
+              <img src="img/why-simpleat/ico-2.svg" alt="">
+            </div>
+
+            <h3>Save time</h3>
+
+            <p>
+              Spend your time on business, sport, work, family or fun. Simpleat will take care of your nutrition.
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-3.jpg)">
+              <img src="img/why-simpleat/ico-4.svg" alt="">
+            </div>
+
+            <h3>Save money</h3>
+
+            <p>
+              Reasonable price for a complete, balanced and healthy meal. 
+            </p>
+          </div><!-- .item -->
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-4.jpg)">
+              <img src="img/why-simpleat/ico-3.svg" alt="">
+            </div>
+
+            <h3>Great health</h3>
+
+            <p>
+              Simpleat helps your body to stay healthy and vibrant.
+            </p>
+          </div><!-- .item -->
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-5.jpg)">
+              <img src="img/why-simpleat/ico-5.svg" alt="">
+            </div>
+
+            <h3>High energy</h3>
+
+            <p>
+              No sugar spikes, only sustainable level of energy.
+            </p>
+          </div><!-- .item -->
+          <div class="item">
+            <div class="image" style="background-image: url(img/why-simpleat/img-6.jpg)">
+              <img src="img/why-simpleat/ico-6.svg" alt="">
+            </div>
+
+            <h3>No hunger</h3>
+
+            <p>
+              A bottle of Simpleat immediately saves you from hunger and satisfy your body needs. 
+            </p>
+          </div><!-- .item -->
+        </div><!-- .list -->
+
+        <div class="text-center">
+          <a href="#" class="btn">Order Simpleat</a>
+        </div>
+      </div>
+    </section><!-- .why-simpleat -->
+
+    <section class="section testimonial gray-block">
+      <div class="center">
+        <h2>Testimonial</h2>
+        <p class="desc">
+          Simpleat is made to provide the perfectly balanced diet with every nutrient your body needs for optimal health.
+        </p>
+
+        <div class="list flex-container">
+          <a href="https://www.youtube.com/watch?v=EOnSh3QlpbQ" class="item popup-youtube" style="background-image: url(img/testimonial/0.jpg)">
+            <div>
+              <h6><span>Anna, 25</span> <span>Manager</span></h6>
+              <p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod</p>
+            </div>
+          </a>
+
+          <a href="https://www.youtube.com/watch?v=af59U2BRRAU" class="item popup-youtube" style="background-image: url(img/testimonial/1.jpg)">
+            <div>
+              <h6><span>Stiv, 25</span> <span>Manager</span></h6>
+              <p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod</p>
+            </div>
+          </a>
+
+          <div href="https://www.youtube.com/watch?v=EOnSh3QlpbQ" class="item" style="background-image: url(img/testimonial/2.jpg)">
+            <div>
+              <h6><span>Julia, 45</span> <span>Manager</span></h6>
+              <p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod</p>
+            </div>
+          </div>
+
+          <a href="https://www.youtube.com/watch?v=1M4ADcMn3dA" class="item popup-youtube" style="background-image: url(img/testimonial/3.jpg)">
+            <div>
+              <h6><span>John, 35</span> <span>Manager</span></h6>
+              <p>Lorem ipsum dolor sit elit,sed do eiusmod elit,sed do eiusmod</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section><!-- .testimonial -->
+
+    <section class="section main-ingredients">
+      <div class="center">
+        <h2>Main ingredients</h2>
+        <p class="desc">
+          What is inside Simpleat?
+        </p>
+
+        <div class="list flex-container">
+          <div class="item">
+            <div class="image" style="background-image: url(img/main-ingredients/1.jpg)"></div>
+
+            <h3>Soybean protein</h3>
+            <p>
+              Soy is a complete protein and rich in vitamins and minerals. Soybean protein provides all the essential amino acids in the amounts needed for human health.
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/main-ingredients/2.jpg)"></div>
+
+            <h3>Oils</h3>
+            <p>
+              The perfect mix of lipids from sea algae, coconut, sunflower, flaxseed and canola. Rich with omega-3, unsaturated fatty acids DHA and EPA, which contribute to the normal function of the heart and brain function.
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/main-ingredients/3.jpg)"></div>
+
+            <h3>Oat flour</h3>
+            <p>
+              Oat flour is made from whole oats and contains beta-glucans. This fiber have shown to lower risk factors for heart disease such as high cholesterol and high blood pressure.
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/main-ingredients/4.jpg)"></div>
+
+            <h3>Isomaltulose</h3>
+            <p>
+              Isomaltulose is a natural occurring disaccharide. It keeps you energetic without the spikes of refined sugar.
+            </p>
+          </div><!-- .item -->
+
+          <div class="item">
+            <div class="image" style="background-image: url(img/main-ingredients/5.jpg)"></div>
+
+            <h3>Minerals & Vitamins</h3>
+            <p>
+              A bottle of Simpleat contains 20% of daily requirements of all micronutrients for your body.
+            </p>
+          </div><!-- .item -->
+        </div><!-- .list -->
+      </div>
+    </section><!-- .main-ingredients -->
+
+    <section class="section nutritional-facts gray-block">
+      <div class="center">
+        <h2>Nutritional Facts</h2>
+
+        <div class="list flex-container align-center">
+          <div class="items left text-right">
+            <div class="item">
+              <div>
+                <h5>Energy</h5>
+                <p>
+                  400 kcal in one bottle <br>
+                  20% of your daily needs
+                </p>
+              </div>
+
+              <div class='ico'>
+                <img src="img/nutritional-facts/1.svg" alt="">
+              </div>
+            </div><!-- .item -->
+
+            <div class="item">
+              <div>
+                <h5>Nutrients</h5>
+                <p>
+                  25 micronutrients <br> 
+                  20% of your daily requirements
+                  in each bottle
+                </p>
+              </div>
+
+              <div class='ico'>
+                <img src="img/nutritional-facts/2.svg" alt="">
+              </div>
+            </div><!-- .item -->
+
+            <div class="item">
+              <div>
+                <h5>Neutral pleasant taste</h5>
+                <p>
+                  Enjoy Simpleat's neutral taste
+                  several times a day and never get tired
+                </p>
+              </div>
+
+              <div class='ico'>
+                <img src="img/nutritional-facts/3.svg" alt="">
+              </div>
+            </div><!-- .item -->
+          </div>
+
+          <div class="wrap-image">
+            <img src="img/nutritional-facts/image.png" class="image" alt="">
+          </div>
+          
+          <div class="items right">
+            <div class="item">
+              <div class='ico'>
+                <img src="img/nutritional-facts/4.svg" alt="">
+              </div>
+
+              <div>
+                <h5>Vegan, lactose-free, nut-free</h5>
+                <p>
+                  Easy to make food descisions.
+                </p>
+              </div>
+            </div><!-- .item -->
+
+            <div class="item">
+              <div class='ico'>
+                <img src="img/nutritional-facts/5.svg" alt="">
+              </div>
+
+              <div>
+                <h5>Scientifically approved</h5>
+                <p>
+                  Simpleat is designed in a lab, based on clinical studies and produced using the latest high-tech.
+                </p>
+              </div>
+            </div><!-- .item -->
+
+            <div class="item">
+              <div class='ico'>
+                <img src="img/nutritional-facts/6.svg" alt="">
+              </div>
+
+              <div>
+                <h5>Anywhere you go</h5>
+                <p>
+                  1-year shelf life and no refrigeration required. Excellent nutrition is always with you 
+                </p>
+              </div>
+            </div><!-- .item -->
+          </div>
+        </div><!-- .list -->
+
+        <div class="text-center">
+          <a href="pdf/file.PDF" download="Стефанов С. - React.js Быстрый старт - 2017" class="download">Download PDF</a>
+          <br>
+          <a href="#" class="btn">Order now</a>
+        </div>
+      </div>
+    </section><!-- .nutritional-facts -->
+
+    <section class="section low-glycemic">
+      <div class="center">
+        <h2>Low glycemic and insulin index</h2>
+
+        <p class="desc">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </p>
+
+        <div class="text-center">
+          <div class="image">
+            <img src="img/low-glycemic.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section><!-- .low-glycemic -->
+
+    <section class="section nutritional-facts gray-block">
+      <div class="center">
+        <h2>Simpleat — Super food</h2>
+
+        <div class="desc">
+          Nutritional Profile. <br>
+          Click on the Title to learm more
+        </div>
+
+        <div class="tabs">
+          <div class="nav">
+            <a href="#macronutreins" class="tab active">Macronutreins</a>
+            <a href="#vitamins" class="tab">Vitamins</a>
+            <a href="#minerals" class="tab">Minerals</a>
+          </div>
+
+          <div class="content">
+            <div class="item active" id="macronutreins">
+              <div class="what-inside" style="background-image: url(img/what-inside.png);">
+
+                <p class="text">
+                  <span>
+                    What's inside?
+                  </span>
+                </p>
+              </div><!-- .what-inside -->
+
+              <div class="wrap-table">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>Amount</th>
+                    <th>%RI</th>
+                  </tr>
+
+                  <tr>
+                    <td>Calories</td>
+                    <td>400 kcal</td>
+                    <td>20%</td>
+                  </tr>
+
+                  <tr>
+                    <td>Fat</td>
+                    <td>27.7 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Saturated</td>
+                    <td>10.5 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Monosaturated</td>
+                    <td>5.3 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Polyunsaturated</td>
+                    <td>10.4 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Omega 3 fatty acids</td>
+                    <td>1.3 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Omega 6 fatty acids</td>
+                    <td>7.6 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Carbohydrates</td>
+                    <td>80.8 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Sugars</td>
+                    <td>20.7 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Fiber</td>
+                    <td>7.0 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Protein</td>
+                    <td>40.1 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Salt</td>
+                    <td>2.1 g</td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+            </div><!-- .item -->
+
+            <div class="item" id="vitamins">
+              <div class="what-inside" style="background-image: url(img/what-inside.png);">
+
+                <p class="text">
+                  <span>
+                    What's inside? 2
+                  </span>
+                </p>
+              </div><!-- .what-inside -->
+
+              <div class="wrap-table">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>Amount</th>
+                    <th>%RI</th>
+                  </tr>
+
+                  <tr>
+                    <td>Calories</td>
+                    <td>400 kcal</td>
+                    <td>20%</td>
+                  </tr>
+
+                  <tr>
+                    <td>Carbohydrates</td>
+                    <td>80.8 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Sugars</td>
+                    <td>20.7 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Fiber</td>
+                    <td>7.0 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Protein</td>
+                    <td>40.1 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Salt</td>
+                    <td>2.1 g</td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+            </div><!-- .item -->
+
+            <div class="item" id="minerals">
+              <div class="what-inside" style="background-image: url(img/what-inside.png);">
+
+                <p class="text">
+                  <span>
+                    What's inside? 3
+                  </span>
+                </p>
+              </div><!-- .what-inside -->
+
+              <div class="wrap-table">
+                <table>
+                  <tr>
+                    <th></th>
+                    <th>Amount</th>
+                    <th>%RI</th>
+                  </tr>
+
+                  <tr>
+                    <td>Calories</td>
+                    <td>400 kcal</td>
+                    <td>20%</td>
+                  </tr>
+
+                  <tr>
+                    <td>Polyunsaturated</td>
+                    <td>10.4 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Omega 3 fatty acids</td>
+                    <td>1.3 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Omega 6 fatty acids</td>
+                    <td>7.6 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Carbohydrates</td>
+                    <td>80.8 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Sugars</td>
+                    <td>20.7 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Fiber</td>
+                    <td>7.0 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Protein</td>
+                    <td>40.1 g</td>
+                    <td></td>
+                  </tr>
+
+                  <tr>
+                    <td>Salt</td>
+                    <td>2.1 g</td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+            </div><!-- .item -->
+          </div><!-- .content -->
+        </div><!-- .tabs -->
+
+        <div class="text-center">
+          <a href="#" class="btn">Order now</a>
+        </div>
+      </div>
+    </section><!-- .nutritional-facts -->
+
+    <section class="section join-us">
+      <div class="center">
+        <h2>Join us</h2>
+
+        <p class="desc">
+          Stay updated, enjoy special offers and bonuses
+        </p>
+
+        <form action="#" class="sign-up">
+          <input type="email" placeholder="Your e-mail">
+          <input type="submit" value="Sign up!" class="btn">
+        </form>
+      </div>
+    </section><!-- .join-us -->
+
+    <section class="section network-section">
+      <div class="center">
+        <div class="network">
+          <a href="#">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="51px" height="50px">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+               d="M36.691,-0.001 L13.538,-0.001 C6.063,-0.001 -0.000,6.035 -0.000,13.476 L-0.000,36.524 C-0.000,43.966 6.063,50.001 13.538,50.001 L25.486,50.001 L25.486,31.815 L21.919,31.815 L21.919,25.753 L25.486,25.753 C25.486,25.753 25.486,21.616 25.486,20.701 C25.486,19.786 25.355,13.629 33.250,13.629 C34.320,13.629 36.662,13.629 38.802,13.629 C38.802,16.363 38.802,19.215 38.802,20.047 C37.256,20.047 35.544,20.047 34.736,20.047 C33.928,20.047 33.095,20.879 33.095,21.510 C33.095,22.128 33.095,25.753 33.095,25.753 C33.095,25.753 38.184,25.753 38.838,25.753 C38.612,28.962 38.136,31.815 38.136,31.815 L33.095,31.815 L33.095,50.001 L36.691,50.001 C44.167,50.001 50.230,43.966 50.230,36.524 L50.230,13.476 C50.230,6.035 44.167,-0.001 36.691,-0.001 Z"/>
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="52px" height="50px">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+               d="M37.500,-0.001 L14.347,-0.001 C6.872,-0.001 0.809,6.035 0.809,13.476 L0.809,36.524 C0.809,43.966 6.872,50.001 14.347,50.001 L37.500,50.001 C44.975,50.001 51.038,43.966 51.038,36.524 L51.038,13.476 C51.038,6.035 44.975,-0.001 37.500,-0.001 ZM38.147,19.560 L38.167,20.293 C38.167,27.813 32.418,36.485 21.901,36.485 C18.673,36.485 15.671,35.537 13.140,33.926 C13.592,33.975 14.043,34.005 14.504,34.005 C17.182,34.005 19.655,33.096 21.607,31.572 C19.105,31.524 16.996,29.873 16.270,27.617 C16.623,27.686 16.976,27.725 17.349,27.725 C17.879,27.725 18.364,27.657 18.845,27.529 C16.236,27.012 14.249,24.707 14.249,21.953 L14.249,21.885 C15.034,22.314 15.922,22.569 16.854,22.598 C15.323,21.582 14.320,19.834 14.320,17.861 C14.320,16.816 14.608,15.840 15.099,15.000 C17.914,18.447 22.135,20.713 26.883,20.947 C26.785,20.527 26.737,20.097 26.737,19.648 C26.737,16.504 29.298,13.955 32.457,13.955 C34.095,13.955 35.587,14.648 36.626,15.752 C37.931,15.498 39.148,15.030 40.256,14.375 C39.825,15.703 38.922,16.816 37.745,17.519 C38.903,17.383 40.001,17.070 41.032,16.621 C40.266,17.764 39.295,18.769 38.147,19.560 Z"/>
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="51px" height="50px">
+              <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+               d="M37.473,50.001 L14.320,50.001 C6.844,50.001 0.781,43.966 0.781,36.524 L0.781,13.476 C0.781,6.035 6.844,-0.001 14.320,-0.001 L37.473,-0.001 C44.948,-0.001 51.011,6.035 51.011,13.476 L51.011,36.524 C51.011,43.966 44.948,50.001 37.473,50.001 ZM37.571,19.140 C37.571,15.605 35.089,13.378 32.803,13.378 L19.402,13.378 C16.311,13.378 14.222,15.781 14.222,19.287 L14.222,31.348 C14.222,34.717 16.351,36.622 20.030,36.622 L32.352,36.622 C35.275,36.622 37.571,34.287 37.571,31.280 L37.571,19.140 ZM32.362,35.645 L20.030,35.645 C17.832,35.645 15.203,34.913 15.203,31.338 L15.203,21.680 L20.709,21.680 C20.245,22.559 19.981,23.480 19.981,24.507 C19.981,27.759 22.639,30.391 25.896,30.391 C29.153,30.391 31.812,27.754 31.812,24.502 C31.812,23.479 31.550,22.518 31.089,21.680 L36.590,21.680 L36.590,31.270 C36.590,33.780 34.775,35.645 32.362,35.645 ZM25.896,19.590 C28.624,19.590 30.841,21.787 30.841,24.502 C30.841,27.217 28.624,29.424 25.896,29.424 C23.169,29.424 20.952,27.227 20.952,24.512 C20.952,21.797 23.169,19.590 25.896,19.590 ZM25.896,28.223 C27.957,28.223 29.624,26.563 29.624,24.512 C29.624,22.461 27.957,20.801 25.896,20.801 C23.836,20.801 22.168,22.461 22.168,24.512 C22.168,26.563 23.836,28.223 25.896,28.223 ZM25.896,22.646 C26.926,22.646 27.760,23.477 27.760,24.502 C27.760,25.528 26.926,26.357 25.896,26.357 C24.866,26.357 24.032,25.528 24.032,24.502 C24.032,23.477 24.866,22.646 25.896,22.646 ZM25.887,18.598 C24.088,18.598 22.463,19.413 21.384,20.674 L21.384,20.703 L15.203,20.703 L15.203,19.277 C15.203,17.987 15.595,16.573 16.478,15.599 L16.478,19.218 C16.478,19.492 16.704,19.707 16.969,19.707 C17.234,19.707 17.459,19.492 17.459,19.229 L17.459,14.873 C17.459,14.860 17.422,14.848 17.421,14.836 C17.625,14.728 17.852,14.637 18.048,14.566 L18.048,19.218 C18.048,19.492 18.274,19.707 18.538,19.707 C18.803,19.707 19.029,19.492 19.029,19.218 L19.029,14.502 C19.029,14.465 19.049,14.416 19.041,14.382 C19.151,14.375 19.287,14.356 19.402,14.356 L19.751,14.356 C19.742,14.453 19.716,14.461 19.716,14.502 L19.716,19.218 C19.716,19.492 19.941,19.707 20.206,19.707 C20.481,19.707 20.697,19.492 20.697,19.218 L20.697,14.502 C20.697,14.461 20.710,14.453 20.701,14.356 L32.803,14.356 C34.628,14.356 36.590,16.201 36.590,19.140 L36.590,20.605 L30.355,20.605 C29.271,19.434 27.666,18.598 25.887,18.598 ZM30.605,18.369 C30.605,18.957 31.084,19.434 31.675,19.434 L33.264,19.434 C33.855,19.434 34.333,18.957 34.333,18.369 L34.333,16.787 C34.333,16.199 33.855,15.723 33.264,15.723 L31.675,15.723 C31.084,15.723 30.605,16.199 30.605,16.787 L30.605,18.369 Z"/>
+            </svg>
+          </a>
+        </div><!-- .network -->
+
+        <div class="links">
+          <a href="#">Blog</a>
+          <a href="#">FAQ</a>
+          <a href="#">Legal</a>
+        </div>
+
+        <div class="copyright">
+          &#9400; 2018, Simpleat
+        </div>
+      </div>
+    </section><!-- .network-section -->
+  </main>
+  
+  <footer class="main-footer">
+    <div class="center">
+      <div class="flex-container container">
+        <div class="links">
+          <a href="tel:+123456789000" class="link-svg">
+            <svg 
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             width="41px" height="40px">
+              <path fill-rule="evenodd"  opacity="0.949" fill="rgb(246, 250, 250)"
+             d="M34.143,5.859 C26.328,-1.956 13.666,-1.956 5.860,5.859 C-1.656,13.375 -1.939,25.396 5.020,33.252 L5.228,33.419 C4.471,35.048 3.174,37.060 1.113,38.075 C0.431,38.407 0.589,39.421 1.337,39.538 C3.590,39.887 6.824,39.496 9.842,37.218 L9.883,37.252 C17.549,41.757 27.575,40.726 34.159,34.142 C41.957,26.336 41.957,13.666 34.143,5.859 ZM26.594,28.556 C26.153,29.005 25.688,29.420 25.272,29.886 C24.665,30.567 23.900,30.784 23.036,30.734 C21.772,30.667 20.600,30.243 19.477,29.695 C16.975,28.481 14.838,26.793 13.051,24.665 C11.729,23.093 10.640,21.381 9.917,19.444 C9.568,18.504 9.318,17.548 9.393,16.534 C9.443,15.911 9.676,15.378 10.133,14.938 C10.632,14.464 11.097,13.973 11.588,13.491 C12.228,12.860 13.026,12.867 13.666,13.491 C14.065,13.882 14.448,14.272 14.838,14.663 C15.221,15.046 15.603,15.420 15.977,15.802 C16.642,16.476 16.642,17.257 15.977,17.930 C15.503,18.412 15.030,18.895 14.539,19.360 C14.414,19.485 14.398,19.585 14.464,19.743 C14.780,20.508 15.246,21.190 15.761,21.821 C16.800,23.101 17.981,24.240 19.394,25.122 C19.693,25.313 20.026,25.446 20.342,25.621 C20.500,25.712 20.616,25.679 20.741,25.546 C21.215,25.056 21.705,24.573 22.188,24.091 C22.828,23.459 23.626,23.459 24.258,24.091 C25.039,24.864 25.812,25.637 26.585,26.419 C27.251,27.101 27.251,27.899 26.594,28.556 ZM19.220,15.636 L19.469,13.857 C21.190,14.098 22.753,14.880 23.983,16.110 C25.156,17.282 25.920,18.754 26.195,20.375 L24.424,20.682 C24.208,19.427 23.618,18.288 22.711,17.382 C21.755,16.426 20.550,15.819 19.220,15.636 ZM29.088,20.375 C28.689,18.047 27.591,15.935 25.920,14.256 C24.158,12.493 21.922,11.379 19.452,11.030 L19.702,9.251 C22.553,9.650 25.147,10.939 27.184,12.984 C29.121,14.921 30.393,17.373 30.859,20.067 L29.088,20.375 Z"/>
+            </svg>
+
+            <span>
+              +123 456-789-000 <br>
+              Every day from 8 AM - 8 PM
+            </span>
+          </a>
+
+          <a href="mailto:info@simleat.me" class="link-svg">
+            <svg 
+               xmlns="http://www.w3.org/2000/svg"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               width="40px" height="40px">
+              <path fill-rule="evenodd"  fill="rgb(239, 247, 247)"
+             d="M20.000,40.001 C18.160,40.001 16.386,39.761 14.680,39.281 C12.973,38.801 11.379,38.127 9.899,37.261 C8.419,36.394 7.072,35.354 5.859,34.140 C4.646,32.927 3.606,31.580 2.739,30.100 C1.872,28.620 1.199,27.026 0.719,25.320 C0.239,23.613 -0.001,21.839 -0.001,20.000 C-0.001,18.159 0.239,16.386 0.719,14.679 C1.199,12.972 1.872,11.379 2.739,9.899 C3.606,8.419 4.646,7.072 5.859,5.858 C7.072,4.645 8.419,3.605 9.899,2.738 C11.379,1.872 12.973,1.198 14.680,0.718 C16.386,0.238 18.160,-0.002 20.000,-0.002 C22.747,-0.002 25.340,0.525 27.780,1.578 C30.221,2.632 32.341,4.058 34.141,5.858 C35.941,7.659 37.368,9.779 38.421,12.219 C39.474,14.659 40.001,17.253 40.001,20.000 C40.001,21.839 39.761,23.613 39.281,25.320 C38.801,27.026 38.128,28.620 37.261,30.100 C36.394,31.580 35.354,32.927 34.141,34.140 C32.928,35.354 31.581,36.394 30.101,37.261 C28.620,38.127 27.027,38.801 25.320,39.281 C23.614,39.761 21.840,40.001 20.000,40.001 ZM29.641,11.759 L10.679,11.759 C10.493,11.759 10.333,11.819 10.199,11.939 C10.066,12.059 9.999,12.226 9.999,12.439 L9.999,14.559 C9.999,14.666 10.039,14.719 10.119,14.719 L20.080,20.399 L20.160,20.439 C20.213,20.439 20.253,20.426 20.280,20.399 L29.921,14.719 C29.974,14.692 30.014,14.679 30.041,14.679 C30.067,14.679 30.107,14.666 30.161,14.639 C30.267,14.639 30.321,14.586 30.321,14.479 L30.321,12.439 C30.321,12.226 30.254,12.059 30.121,11.939 C29.987,11.819 29.827,11.759 29.641,11.759 ZM16.040,20.279 C16.066,20.253 16.080,20.212 16.080,20.160 C16.080,20.079 16.053,20.039 16.000,20.039 L10.279,16.759 C10.199,16.732 10.133,16.732 10.079,16.759 C10.026,16.759 9.999,16.799 9.999,16.879 L9.999,25.480 C9.999,25.560 10.039,25.613 10.119,25.640 L10.199,25.640 C10.253,25.640 10.279,25.626 10.279,25.600 L16.040,20.279 ZM23.000,20.919 C22.973,20.839 22.907,20.826 22.800,20.879 L20.600,22.160 C20.333,22.320 20.053,22.320 19.760,22.160 L17.840,21.080 C17.760,21.026 17.693,21.026 17.640,21.080 L10.319,27.880 C10.293,27.906 10.279,27.960 10.279,28.040 C10.279,28.066 10.306,28.107 10.359,28.160 C10.519,28.214 10.626,28.240 10.679,28.240 L29.440,28.240 C29.494,28.240 29.547,28.214 29.600,28.160 C29.600,28.053 29.587,27.987 29.560,27.960 L23.000,20.919 ZM30.201,16.599 L30.041,16.599 L24.600,19.839 C24.547,19.839 24.520,19.880 24.520,19.959 C24.494,19.986 24.507,20.026 24.560,20.079 L30.001,25.960 C30.054,26.013 30.094,26.040 30.121,26.040 L30.201,26.040 C30.281,25.960 30.321,25.906 30.321,25.880 L30.321,16.759 C30.321,16.706 30.281,16.653 30.201,16.599 Z"/>
+            </svg>
+
+            <span>
+              info@simleat.me <br>
+              We will respond ASAP
+            </span>
+          </a>
+        </div>
+
+        <div>
+          <div name="select" class="language">
+            <button class="btn-menu"><img src="img/icons/en.png" alt="">English</button>
+
+            <div class="menu">
+              <div class="item"><img src="img/icons/en.png" alt="">English</div>
+              <div class="item"><img src="img/icons/pl.png" alt="">Polski</div>
+              <div class="item"><img src="img/icons/ua.png" alt="">Українська</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/scripts.min.js"></script>
+</body>
+</html>

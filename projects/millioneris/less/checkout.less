@@ -1,0 +1,196 @@
+@import url(mixin.less);
+.checkout-page{
+	label{
+		font-weight: 700;
+		margin-bottom: 7px;
+		display: inline-block;
+	}
+	.slider-fade{
+		max-width: 300px;
+		display: inline-block;
+	}
+	.counters{
+		justify-content: flex-start;
+		margin-top: 15px;
+	}
+	.car-selects{
+		align-items: center;
+	}
+	.info{
+		cursor: pointer;
+	}
+	.info-counter{
+		margin-top: 5px;
+		font-size: 12px;
+		color: #6a7996;
+	}
+	.ui-selectmenu-button{
+		&.ui-button{
+			background: #fff;
+			border: 1px solid #a4aec0;
+			border-radius: 6px;
+		}
+	}
+	hr{
+		margin: 30px 0;
+	}
+	.contact-info{
+		margin-top: 35px;
+
+		input + label{
+			margin-top: 30px;
+		}
+	}
+	.payment{
+		background: #dde3ec;
+		padding: 22px 40px;
+		border-radius: 15px;
+		margin-top: 15px;
+
+		label{
+			margin-top: 0;
+			border-color: transparent;
+		}
+		.radio + .radio{
+			margin-top: 20px;
+		}
+		.wrap-price{
+			margin-top: 12px;
+			justify-content: flex-start;
+
+			h6{
+				margin-bottom: 0;
+			}
+			.btn{
+				margin-top: 0;
+				font-size: 16px;
+				min-width: 170px;
+			}
+		}
+	}
+	.date-time{
+		display: flex;
+		border: 1px solid #a4aec0;
+		border-radius: 6px;
+		max-height: 50px;
+		
+		& > *{
+			flex: 1;
+		}
+		input{
+			border: none;
+			width: 100%;
+			height: 48px;
+		}
+		.datepicker, .timepicker{
+			background: url(../img/icons/calendar-red.svg) no-repeat 15px center;
+			padding-left: 40px;
+			cursor: pointer;
+		}
+		.timepicker{
+		 	background-image: url(../img/icons/clock-red.svg);
+		}
+		.clock-counter{
+			position: relative;
+		}
+		.time-popup{
+			display: flex;
+			justify-content: space-around;
+			position: absolute;
+			z-index: 6;
+			align-items: center;
+			border-radius: 15px;
+			font-size: 26px;
+			top: 100%;
+			left: 0;
+			margin-top: 4px;
+			width: 100%;
+			padding: 30px;
+			background: #fff;
+			box-shadow: 0 0 30px 10px rgba(23, 25, 25, 0.2);
+
+			&:after{
+				content: ''; 
+			    position: absolute;
+			    left: 12px; top: -20px;
+			    border: 10px solid transparent;
+			    border-bottom: 12px solid #fff;
+			    display: block;
+			}
+			.btn-plus, .btn-minus{
+				width: 35px;
+				height: 16px;
+				background: url(../img/icons/go-back-left-arrow.svg) no-repeat top center;
+			}
+			.btn-plus{
+				transform: rotate(90deg);
+			}
+			.btn-minus{
+				transform: rotate(-90deg);
+			}
+			.time{
+				margin: 30px 0;
+				width: 35px;
+				text-align: center;
+			}
+		}
+	}
+	@media screen and (max-width: 768px){
+		h2{
+			margin-bottom: 10px;
+		}
+		h4{
+			font-size: 24px;
+			margin-bottom: 0px;
+		}
+		.contact-info{
+			margin-top: 0;
+
+			input+label{
+				margin-top: 20px;
+			}
+		}
+		textarea{
+			min-height: 120px;
+		}
+		.payment{
+			padding: 15px;
+
+			.wrap-price{
+				justify-content: center;
+			}
+		}
+		.date-time .time-popup{
+			padding: 15px;
+		}
+	}
+	@media screen and (max-width: 450px){
+		.date-time .time-popup{
+			left: -100%;
+			width: 200%;
+
+			&:after{
+				left: auto;
+				right: 12px;
+			}
+		}
+		.ui-datepicker.ui-widget-content{
+			width: 90%;
+			left: 5%!important;
+		}
+	}
+	@media screen and (max-width: 400px){
+		.counter{
+			max-width: 100%;
+
+			input{
+				width: 100%;
+			}
+		}
+		.counters{
+			& > *{
+				flex-basis: 100%;
+			}
+		}
+	}
+}
