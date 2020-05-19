@@ -1,6 +1,6 @@
 import React from 'react';
 
-let ava = 'https://i.work.ua/sent_photo/2/6/2/2624ad41b334a1e2e1b45e5968ab8c81.jpg';
+import ava from '../../img/avatar.jpg';
 
 const Home = (props) => {
   return (

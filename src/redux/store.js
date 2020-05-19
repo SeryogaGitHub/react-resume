@@ -1,250 +1,201 @@
+import src1 from "../img/portfolio/1.jpg";
+import src2 from "../img/portfolio/2.jpg";
+import src3 from "../img/portfolio/3.jpg";
+import src4 from "../img/portfolio/4.jpg";
+import src5 from "../img/portfolio/5.jpg";
+import src6 from "../img/portfolio/6.jpg";
+import src7 from "../img/portfolio/7.jpg";
+import src8 from "../img/portfolio/8.jpg";
+import src9 from "../img/portfolio/9.jpg";
+import src10 from "../img/portfolio/10.jpg";
+import src11 from "../img/portfolio/11.jpg";
+import src12 from "../img/portfolio/12.jpg";
+import src13 from "../img/portfolio/13.jpg";
+import src14 from "../img/portfolio/14.jpg";
+import src15 from "../img/portfolio/15.jpg";
+import src16 from "../img/portfolio/16.jpg";
+import src17 from "../img/portfolio/17.jpg";
+import src18 from "../img/portfolio/18.jpg";
+import src19 from "../img/portfolio/19.jpg";
+import src20 from "../img/portfolio/20.jpg";
+import src21 from "../img/portfolio/21.jpg";
+import src22 from "../img/portfolio/22.jpg";
+import src23 from "../img/portfolio/23.jpg";
+import src24 from "../img/portfolio/24.jpg";
+import src25 from "../img/portfolio/25.jpg";
+import src26 from "../img/portfolio/26.jpg";
+import src27 from "../img/portfolio/27.jpg";
+import src28 from "../img/portfolio/28.jpg";
+import src29 from "../img/portfolio/29.jpg";
+import src30 from "../img/portfolio/30.jpg";
+import src31 from "../img/portfolio/31.jpg";
+import src32 from "../img/portfolio/32.jpg";
+import src33 from "../img/portfolio/33.jpg";
+import src34 from "../img/portfolio/34.jpg";
+import src35 from "../img/portfolio/35.jpg";
+import src36 from "../img/portfolio/36.jpg";
+import src37 from "../img/portfolio/37.jpg";
+import src38 from "../img/portfolio/38.jpg";
+import src39 from "../img/portfolio/39.jpg";
+
 let state = {
   projects: [
     {
-      classEffect: "bounceInLeft",
-      delay: "100ms",
-      duration: "1s",
       href: "https://seryogagithub.github.io/projects/bestplitka/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/1.jpg?raw=true',
+      src: src1,
       alt: "bestplitka"
     }, {
-      classEffect: "bounceInUp",
-      delay: "700ms",
-      duration: "1.5s",
       href: "https://seryogagithub.github.io/projects/bss/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/2.jpg?raw=true',
+      src: src2,
       alt: "bss"
     }, {
-      classEffect: "bounceInRight",
-      delay: "500ms",
-      duration: "2s",
       href: "https://seryogagithub.github.io/projects/colgate/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/3.jpg?raw=true',
+      src: src3,
       alt: "colgate"
     }, {
-      classEffect: "rollIn",
-      delay: "1500ms",
-      duration: "1s",
       href: "https://seryogagithub.github.io/projects/fifa/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/4.jpg?raw=true',
+      src: src4,
       alt: "fifa"
     }, {
-      classEffect: "bounceInDown",
-      delay: "500ms",
-      duration: "2s",
       href: "https://seryogagithub.github.io/projects/houseStaff/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/5.jpg?raw=true',
+      src: src5,
       alt: "houseStaff"
     }, {
-      classEffect: "lightSpeedIn",
-      delay: "300ms",
-      duration: "1s",
       href: "https://seryogagithub.github.io/projects/kudu/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/6.jpg?raw=true',
+      src: src6,
       alt: "kudu"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "1000ms",
-      duration: "2s",
       href: "https://seryogagithub.github.io/projects/tow/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/7.jpg?raw=true',
+      src: src7,
       alt: "tow"
     }, {
-      classEffect: "bounceInDown",
-      delay: "200ms",
-      duration: "1s",
       href: "https://seryogagithub.github.io/projects/visa/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/8.jpg?raw=true',
+      src: src8,
       alt: "visa"
     }, {
-      classEffect: "bounceInRight",
-      delay: "1500ms",
-      duration: "2s",
       href: "http://www.inform-vs.ru/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/9.jpg?raw=true',
+      src: src9,
       alt: "inform-vs"
     }, {
-      classEffect: "rollIn",
-      delay: "500ms",
-      duration: "1.5s",
       href: "http://ortomed.com.ua/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/10.jpg?raw=true',
+      src: src10,
       alt: "ortomed"
     }, {
-      classEffect: "bounceInDown",
-      delay: "300ms",
-      duration: "3s",
       href: "http://sklad-pro.com/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/11.jpg?raw=true',
+      src: src11,
       alt: "sklad-pro"
     }, {
-      classEffect: "bounceInRight",
-      delay: "500ms",
-      duration: "1s",
+      href: "https://seryogagithub.github.io/projects/timecy/",
+      src: src12,
+      alt: "timecy"
+    }, {
       href: "https://meets.com/login",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/13.jpg?raw=true',
+      src: src13,
       alt: "meets.com"
     }, {
-      classEffect: "bounceInDown",
-      delay: "800ms",
-      duration: "0.5s",
       href: "https://seryogagithub.github.io/projects/language/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/14.jpg?raw=true',
+      src: src14,
       alt: "arabic-school"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "500ms",
-      duration: "1s",
       href: "http://html.dimbrowsky.info/chernjak/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/17.jpg?raw=true',
+      src: src15,
       alt: "chernjak"
     }, {
-      classEffect: "bounceInDown",
-      delay: "800ms",
-      duration: "0.5s",
       href: "http://html.dimbrowsky.info/auto/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/20.jpg?raw=true',
+      src: src16,
       alt: "auto"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "500ms",
-      duration: "1s",
       href: "http://html.dimbrowsky.info/circus/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/15.jpg?raw=true',
+      src: src17,
       alt: "circus"
     }, {
-      classEffect: "bounceInRight",
-      delay: "400ms",
-      duration: "1s",
       href: "http://html.dimbrowsky.info/chetkin/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/16.jpg?raw=true',
+      src: src18,
       alt: "chetkin"
     }, {
-      classEffect: "bounceInDown",
-      delay: "200ms",
-      duration: "1s",
       href: "http://dimbrowsky.com/km/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/18.jpg?raw=true',
+      src: src19,
       alt: "km"
     }, {
-      classEffect: "bounceInRight",
-      delay: "1500ms",
-      duration: "2s",
       href: "https://carbonconsulting.com.ua/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/19.jpg?raw=true',
+      src: src20,
       alt: "carbonconsulting"
     }, {
-      classEffect: "bounceInUp",
-      delay: "300ms",
-      duration: "1s",
       href: "http://rubineta.com/b2b/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/21.jpg?raw=true',
+      src: src21,
       alt: "rubineta"
     }, {
-      classEffect: "rollIn",
-      delay: "1500ms",
-      duration: "2s",
       href: "http://html.dimbrowsky.info/art/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/22.jpg?raw=true',
+      src: src22,
       alt: "art"
     }, {
-      classEffect: "bounceInDown",
-      delay: "200ms",
-      duration: "1s",
       href: "http://html.dimbrowsky.info/tehno/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/24.jpg?raw=true',
+      src: src23,
       alt: "tehno"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "900ms",
-      duration: "2s",
       href: "http://imperialgarage.net/auto/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/23.jpg?raw=true',
+      src: src24,
       alt: ""
     }, {
-      classEffect: "bounceInUp",
-      delay: "700ms",
-      duration: "1.5s",
       href: "http://html.dimbrowsky.info/tech-razv/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/25.jpg?raw=true',
+      src: src25,
       alt: "tech-razv"
     }, {
-      classEffect: "lightSpeedIn",
-      delay: "1500ms",
-      duration: "0.4s",
       href: "https://seryogagithub.github.io/projects/ubm/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/26.jpg?raw=true',
+      src: src26,
       alt: "ubm"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "500ms",
-      duration: "0.6s",
       href: "https://seryogagithub.github.io/projects/millioneris/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/27.jpg?raw=true',
+      src: src27,
       alt: "millioneris"
     }, {
-      classEffect: "bounceInUp",
-      delay: "700ms",
-      duration: "0.4s",
       href: "https://seryogagithub.github.io/projects/simpleat/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/28.jpg?raw=true',
+      src: src28,
       alt: "simpleat"
     }, {
-      classEffect: "bounceInUp",
-      delay: "400ms",
-      duration: "0.4s",
       href: "https://seryogagithub.github.io/projects/2ru2/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/29.jpg?raw=true',
+      src: src29,
       alt: "2ru2"
     }, {
-      classEffect: "bounceInUp",
-      delay: "100ms",
-      duration: "0.7s",
       href: "http://html.dimbrowsky.info/mg-studia/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/30.jpg?raw=true',
+      src: src30,
       alt: "mg-studia"
     }, {
-      classEffect: "bounceInDown",
-      delay: "200ms",
-      duration: "1s",
       href: "https://seryogagithub.github.io/projects/enginering/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/31.jpg?raw=true',
+      src: src31,
       alt: "enginering"
     }, {
-      classEffect: "bounceInUp",
-      delay: "700ms",
-      duration: "0.5s",
       href: "https://seryogagithub.github.io/projects/aist/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/32.jpg?raw=true',
+      src: src32,
       alt: "aist"
     }, {
-      classEffect: "bounceInLeft",
-      delay: "500ms",
-      duration: "0.4s",
       href: "http://new.zr-code.com/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/33.jpg?raw=true',
+      src: src33,
       alt: "zr"
     }, {
-      classEffect: "rollIn",
-      delay: "1500ms",
-      duration: "1.2s",
       href: "http://new.zr-code.com/project-page.html",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/34.jpg?raw=true',
+      src: src34,
       alt: "zr-project"
     }, {
-      classEffect: "rollIn",
-      delay: "1500ms",
-      duration: "2s",
       href: "https://seryogagithub.github.io/projects/zoom/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/35.jpg?raw=true',
+      src: src35,
       alt: "zoom"
     }, {
-      classEffect: "rollIn",
-      delay: "1500ms",
-      duration: "2s",
       href: "https://seryogagithub.github.io/projects/callenge/dist/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/img/portfolio/36.jpg?raw=true',
+      src: src36,
       alt: "challenge"
+    }, {
+      href: "https://seryogagithub.github.io/projects/voluptatem-points/",
+      src: src37,
+      alt: "Voluptatem points"
+    }, {
+      href: "https://seryogagithub.github.io/projects/product-advisor/",
+      src: src38,
+      alt: "Product advisor"
+    }, {
+      href: "https://dryft.se/maleri/",
+      src: src39,
+      alt: "Dryft"
     }
   ]
 };
