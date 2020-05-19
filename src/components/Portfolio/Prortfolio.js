@@ -4,12 +4,8 @@ import Project from "./Project";
 const Portfolio = (props) => {
   const {projects} = props;
 
-  let projectComponents = projects.map( e => <Project key={e.alt}
-                                                      classEffect={e.classEffect}
-                                                      src={e.src}
-                                                      alt={e.alt}
-                                                      href={e.href}
-  />);
+  let projectComponents = projects.map((e, index) => <Project key={e.alt + "-" + index} src={e.src} alt={e.alt} href={e.href}/>);
+
   return (
       <main className={'main-content'}>
         <div className="center">
