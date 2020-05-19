@@ -2,8 +2,6 @@ import React from 'react';
 import Project from "./Project";
 
 const Portfolio = (props) => {
-
-  debugger;
   const {projects} = props;
 
   let projectComponents = projects.map( e => <Project key={e.alt}
@@ -13,7 +11,7 @@ const Portfolio = (props) => {
                                                       href={e.href}
   />);
   return (
-      <main>
+      <main className={'main-content'}>
         <div className="center">
           <h1 className="text-center title-page">
             Портфоліо

@@ -236,7 +236,14 @@ let state = {
       delay: "1500ms",
       duration: "2s",
       href: "https://seryogagithub.github.io/projects/zoom/",
-      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/css/img/portfolio/1.jpg?raw=true',
+      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/css/img/portfolio/35.jpg?raw=true',
+      alt: "zoom"
+    }, {
+      classEffect: "rollIn",
+      delay: "1500ms",
+      duration: "2s",
+      href: "https://seryogagithub.github.io/projects/callenge/dist/",
+      src: 'https://github.com/SeryogaGitHub/react-resume/blob/master/src/css/img/portfolio/36.jpg?raw=true',
       alt: "zoom"
     }
   ]

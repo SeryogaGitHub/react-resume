@@ -5,7 +5,7 @@ const Footer = (props) => {
         <footer>
           <div className="center">
             <h4 className="text-center">
-              <time id="datetime">2019 рік</time>
+              <time id="datetime">2020 рік</time>
             </h4>
           </div>
         </footer>

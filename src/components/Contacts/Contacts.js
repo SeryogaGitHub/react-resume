@@ -3,7 +3,7 @@ import MapContainer from "../../utils/MapContainer";
 
 const Contacts = (props) => {
   return (
-      <main>
+      <main className={'main-content'}>
         <div className="center">
           <h1 className="text-center title-page">
             Контакти

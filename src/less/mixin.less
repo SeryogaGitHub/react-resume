@@ -25,18 +25,70 @@
 .text-center{
 	text-align: center;
 }
-.display-flex{
+.display-flex,
+.flex-container{
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 -12.5px;
+	margin: 0 -15px;
 
-	&>div{
-		margin: 12.5px;
+	& > * {
+		margin: 15px;
 		flex: 1 0 400px;
+	}
+}
+.flex-container{
+	justify-content: space-between;
+
+	& > *{
+		flex: initial;
+		margin: 0 15px;
+	}
+	&.align-center{
+		align-items: center;
 	}
 }
 .nowrap{
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+.dropdown{
+	position: relative;
+
+	.toggle{
+		background: @gold-text;
+		width: 50px;
+		height: 30px;
+		line-height: 25px;
+		color: #222;
+		box-shadow: inset 0 1px 0 hsla(0,0%,100%,.5),0 1px 5px rgba(0,0,0,.5);
+		font-size: 18px;
+		border-radius: 5px;
+		font-weight: 700;
+	}
+	.dropdown-container{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		padding: 6px 0;
+
+		&:after{
+			content: "";
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgba(61, 61, 61, 0.8);
+			filter: blur(10);
+		}
+		& > *{
+			position: relative;
+			z-index: 2;
+			text-align: center;
+			padding: 3px 5px;
+			cursor: pointer;
+		}
+	}
 }
